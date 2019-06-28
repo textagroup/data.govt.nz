@@ -17,6 +17,8 @@ use SilverStripe\ORM\DataObject;
  */
 class Contact extends DataObject
 {
+    private static $table_name = 'DiaContact';
+
     private static $db = [
         'Name' => 'Varchar(255)',
         'Address' => 'Varchar(255)',
