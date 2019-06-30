@@ -4,7 +4,7 @@ namespace textagroup\dia;
 
 use Page;
 
-class AddContactFormPage extends Page
+class ContactSearchPage extends Page
 {
         private static $db = [];
 
