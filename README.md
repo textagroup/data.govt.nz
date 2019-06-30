@@ -1,4 +1,4 @@
-# DIA form examle
+# DIA form example
 
 Basic SilverStripe 4 module with the following basic pages
 
@@ -8,7 +8,7 @@ Basic SilverStripe 4 module with the following basic pages
 
 # Ideas
 
-* JavaScript valuidation on the forms
+* JavaScript validation on the forms
 * Exporting model data to a CSV format
 * Export contact data to something like a vCard
 * Export gove data to a pdf/csv
