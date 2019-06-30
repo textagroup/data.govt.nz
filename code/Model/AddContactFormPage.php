@@ -6,7 +6,9 @@ use Page;
 
 class AddContactFormPage extends Page
 {
-        private static $db = [];
+    private static $table_name = 'AddContactFormPage';
 
-        private static $has_one = [];
+    private static $db = [];
+
+    private static $has_one = [];
 }
