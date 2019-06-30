@@ -39,3 +39,8 @@ This page has 2 extra CMS fields URL and Resource URL is a API endpoint and defa
 Resource is the ID of an dataset resource it defaults to "At-Sea Observations of Seabirds 1969 to 1990"
 The page pulls all the JSON data from the but currently only uses the format of the data if it is active and
 the URL to download the data in CSV format.
+
+# Testing
+
+Have added a simple PHPUnit test which only tests the very basics of the Contact model.
+A lot more testing could be added

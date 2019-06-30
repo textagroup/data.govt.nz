@@ -19,5 +19,9 @@ class ContactModelTest extends SapphireTest
     {
         $contacts = Contact::get();
         $this->assertEquals($contacts->count(), 1);
+        $this->assertEquals($contacts->first()->Name, 'Users Name');
+        $this->assertEquals($contacts->first()->Address, 'Users Address');
+        $this->assertEquals($contacts->first()->Email, 'user@email.com');
+        $this->assertEquals($contacts->first()->Phone, '123454');
     }
 }
