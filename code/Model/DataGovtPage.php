@@ -56,8 +56,12 @@ class DataGovtPage extends Page
     }
 
     public function getActive() {
+        // active flag has been removed from API
+        return true;
         $this->callAPI();
-        return $this->apiRequest->result->active;
+        if (isset($this->apiRequest) && isset($this->apiRequest->result)) {
+            return isset($this->apiRequest->result->active) ? true : false;
+        }
     }
 
     public function getDocUrl() {
